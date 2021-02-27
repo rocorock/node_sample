@@ -1,0 +1,17 @@
+{
+  "name": "api_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http_server.js",
+  "scripts": {
+    "start": "node http_server.js",
+    "leveldb": "node start_db.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "level": "^6.0.1",
+    "log4js": "^6.3.0"
+  }
+}
