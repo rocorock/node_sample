@@ -6,7 +6,7 @@ package.jsonを含むディレクトリで、下記のコマンドにより実�
 ```:sh
 npm run leveldb
 ```
-デフォルトの仕様では、http://localhost:3000として起動する
+デフォルトの仕様では、http://localhost:3000 として起動する
 
 
 ## メインAPI
