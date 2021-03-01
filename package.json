@@ -2,15 +2,16 @@
   "name": "api_sample",
   "version": "1.0.0",
   "description": "",
-  "main": "http_server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node http_server.js",
-    "leveldb": "node start_db.js"
+    "start": "node app",
+    "leveldb": "node app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
     "level": "^6.0.1",
     "log4js": "^6.3.0"
   }
